@@ -12,6 +12,6 @@ module.exports = (client, int) => {
             }).catch(error => {
                 return int.reply({ content: `I can't send you a private message. Please enable your DM's. ❌`, ephemeral: true, components: [] });
             });
-        }
+        };
     }
 };
